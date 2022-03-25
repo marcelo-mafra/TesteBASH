@@ -3,7 +3,7 @@ unit correios.interfaces;
 interface
 
 uses
-  Windows, Classes, correios.types, correios.service.interfaces, XSBuiltIns;
+  Windows, Classes, SysUtils, correios.types, correios.service.interfaces, XSBuiltIns;
 
 type
   ICorreiosCep = interface
