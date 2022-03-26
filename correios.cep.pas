@@ -49,6 +49,7 @@ begin
  Result.Endereco := Obj.end_;
  Result.Complemento := Obj.complemento2;
  Result.UF := Obj.uf;
+ Result.Tag := 0; //to-do
 end;
 
 procedure TCorreiosCep.BuscaCep(const cep: string; var Obj: enderecoERP);
